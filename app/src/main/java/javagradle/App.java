@@ -11,19 +11,19 @@ public class App {
     }
 
     public int contarElementos() {
-        int count = array.length;
+        int count = (array.length > 0) ? array.length : 0;
         System.out.println("Numero de elementos: " + count);
         return count;
     }
 
-    public int retornarPrimer() {
-        int first = (array.length > 0) ? array[0] : 0;
+    public Integer retornarPrimer() {
+        Integer first = (array.length > 0) ? array[0] : null;
         System.out.println("Primer elemento: " + first);
         return first;
     }
 
-    public int retornarDarrer() {
-        int last = (array.length > 0) ? array[array.length - 1] : 0;
+    public Integer retornarDarrer() {
+        Integer last = (array.length > 0) ? array[array.length - 1] : null;
         System.out.println("Ultimo elemento: " + last);
         return last;
     }
