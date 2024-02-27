@@ -1,0 +1,16 @@
+{
+    "java.test.config": {
+        "name": "JUnit 5",
+        "workingDirectory": "${workspaceFolder}",
+        "sourcePaths": ["src"],
+        "classPaths": ["bin"],
+        "env": {
+            "CLASSPATH": "${workspaceFolder}/bin"
+        },
+        "args": [
+            "-cp", "${workspaceFolder}/bin", "org.junit.platform.console.ConsoleLauncher",
+            "--select-class", "*"
+        ],
+        "customRuntime": "${jdt.ls.java.home}/bin/java"
+    }
+}

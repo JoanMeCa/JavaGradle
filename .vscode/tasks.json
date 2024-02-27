@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\Party\\Desktop\\Grado Superior\\JavaGradleapp:runapp",
+			"script": "app:run",
+			"description": "Runs this project as a JVM application",
+			"group": "application",
+			"project": "app",
+			"buildFile": "C:\\Users\\Party\\Desktop\\Grado Superior\\JavaGradle\\app\\build.gradle",
+			"rootProject": "JavaGradle",
+			"projectFolder": "c:\\Users\\Party\\Desktop\\Grado Superior\\JavaGradle",
+			"workspaceFolder": "c:\\Users\\Party\\Desktop\\Grado Superior\\JavaGradle",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:run"
+		}
+	]
+}
