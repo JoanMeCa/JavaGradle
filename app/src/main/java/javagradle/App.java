@@ -15,6 +15,10 @@ public class App {
         System.out.println("Numero de elementos: " + count);
         return count;
     }
+    
+    public int sumar(int n1, int n2) {
+        return n1 + n2;
+    }
 
     public Integer retornarPrimer() {
         Integer first = (array.length > 0) ? array[0] : null;
