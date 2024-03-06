@@ -17,7 +17,7 @@ class AppTest {
     public void testContarElementosConArrayVacio() {
         int[] array = {};
         App gestor = new App(array);
-        assertEquals(0, gestor.contarElementos());
+        assertEquals(1, gestor.contarElementos());
     }
 
     @Test
