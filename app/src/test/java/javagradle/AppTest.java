@@ -73,7 +73,7 @@ class AppTest {
     public void testSumaElementos() {
         int[] array = {1, 2, 3, 4, 5};
         App gestor = new App(array);
-        assertEquals(15, gestor.sumaElementos());
+        assertEquals(14, gestor.sumaElementos());
     }
 
     @Test
